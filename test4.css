@@ -1,0 +1,6 @@
+﻿@charset "utf-8";
+
+p, div{color:#ff0000; font-family:휴먼옛체; font-size:24pt;}
+div{color:#0000ff;}
+.fontColor{color:green;}
+#fontColor{color:pink;}
