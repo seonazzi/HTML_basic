@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+@import url(reset.css);
+
+body{font:14px arial;}
+#wrapper{position:relative; width:800px; margin:0 auto;}
+figure{height:200px;}/*img부모로서 역할*/
+img{position:absolute; left:0; top:0;}/*margin-right:-6px;*/
+img:nth-child(2){left:200px;}
+img:nth-child(3){left:400px;}
+img:nth-child(4){left:600px;}
+
+.pound{position:absolute; /*width:100px; height:30px;*/ padding:5px 10px; font-size:16px; font-weight:bold; background:skyblue; border:1px solid #000; border-radius:5px; box-shadow:2px 2px 2px #666;}
+.a1{left:-30px; top:150px;}
+.a2{left:270px; top:100px;}
+.a3{left:450px; top:50px;}
+.a4{left:770px; top:30px;}
+
+h1{background:green; padding:10px 0 10px 5px; font-family:times; font-style:italic; color:#fff;}
+dl{width:600px; height:200px; padding-left:200px; background-repeat:no-repeat; background-position:10px 10px;}
+.tulip{background-image:url(../images/1-1_bg.jpg); background-color:skyblue;}
+    /*background:radial-gradient(모양크기 at 중심점, 색1, 색2, 색3, ...);*/
+.lily{background-image:url(../images/1-2_bg.jpg); background-color:yellow;}
+.pear{background-image:url(../images/1-3_bg.jpg); background-color:tomato;}
+.sunflower{background-image:url(../images/1-4_bg.jpg); background-color:lime;}
+dt{font-family:times; font-style:italic; color:#e56d29; padding:10px; font-size:20px;}
+dd{line-height:160%; margin:10px; padding-bottom:10px;}
+dd:nth-child(1){border-bottom:1px solid #000;}
